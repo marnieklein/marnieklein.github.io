@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* Dark text color */
+}
+.card {
+  height: 400px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes space evenly */
+}
+
+.card-img-top {
+  height: 200px; /* Set a fixed height for images */
+  object-fit: cover; /* Ensure the image covers the space while maintaining its aspect ratio */
+}
+
+.card-body {
+  flex-grow: 1;
+  overflow-y: auto; /* Allow scrolling if needed */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: space-between; /* Ensure text and button have space between */
+}
+
+.card-text {
+  margin-bottom: 16px; /* Add margin to separate text and button */
+}
+.container {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  padding: 10px;
+  background-color: #f8f9fa;
+}
